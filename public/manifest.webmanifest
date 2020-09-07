@@ -1,0 +1,10 @@
+{
+    "name" : "Smash It",
+    "short_name" : "Smash It",
+    "start_url" : ".",
+    "background_color": "#6dcdb1",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "description": "Weather App"
+
+}

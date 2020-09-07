@@ -1,0 +1,140 @@
+/*video at 5.15 minutes*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/winter-NY.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+nav{
+    width: 160px;
+    margin-left:20px;
+    padding: 0 25px;
+    margin-top: 10px;
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: #f0ffff;
+    justify-content: center;
+    font-weight: 700;
+    overflow: hidden;
+    align-items: center;
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    background-color: #f0ffff;
+    color: #000000;
+
+  }
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.3) rgba(0,0,0,0.6));
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
+    border-radius: 16px 0px 16px 0px;
+
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+}
+
+header input:focus{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+main{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.showBar{
+    color: #f0ffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  
+}
+
+.location .city{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;;
+}
+
+.location .date{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+.current .temp{
+    color:#ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 15px 0px;
+
+}
+
+.current .temp span{
+    font-weight: 400;
+}
+
+.current .weather{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 14px;
+
+}
+
+.current .range{
+    color:#ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 800px) {
+    .main {
+      width: 100%;
+    }
+  }
+
+
